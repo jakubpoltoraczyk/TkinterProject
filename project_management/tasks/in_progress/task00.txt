@@ -1,0 +1,24 @@
+Date of creation: 
+    21.11.2021
+
+Created by: 
+    Jakub Półtoraczyk
+
+Assigned: 
+    Jakub Półtoraczyk
+
+Type:
+    Normal task
+
+Title: 
+    Create git repository for project
+
+Description:
+    Create git repository for current project with tools to manage most important
+    functionalities like e.g.:
+    * .gitignore file adapted to Python project
+    * github's tokens
+    * initial structure of files and directories
+    * README.md file with some description
+    Also in this task familiarize other team members with this repository and if it's
+    necessary help them to configure their local version.

@@ -1,0 +1,23 @@
+Date of creation: 
+    21.11.2021
+
+Created by: 
+    Jakub Półtoraczyk
+
+Assigned: 
+    Filip Półtoraczyk
+
+Type:
+    Normal task
+
+Title: 
+    Create initial part of application
+
+Description:
+    Create initial part of application especially:
+    * main file with launched main GUI window (this window will be only used to testing other
+      components in the nearest future, so code don't have to be super clear, perfect and long, 
+      because it will be probably replaced anyway)
+    * shortcut, which immediately run application (e.g. using double-clicked mouse left button event)
+    Remember that if creating shortcut will need more lines of code it's good to prepare a separate 
+    function/class for this activity (obviously with documentation).

@@ -1,0 +1,29 @@
+Date of creation: 
+    21.11.2021
+
+Created by: 
+    Jakub Półtoraczyk
+
+Assigned: 
+    
+
+Type:
+    Normal task
+
+Title: 
+    Create custom class for title objects
+
+Description:
+    Create custom class, which will manage GUI title objects.
+    Title object as far as possible should contain: 
+    * title as a basic text
+    * some kind of background (it can be simply different color or even e.g. some faded picture)
+    * border
+    Also remember that:
+    * it should be possible to easily change every element of this object
+    * stuff like e.g. text font, background color should be the same for each object (so I suggest
+      consider usage of some kind of static variables (if they are the same in Python as they are in C++))
+    There's no need to create separate main file only to show this implementation, but please add directory
+    in which one add some screens/photos with example objects (you can temporarily add few instance of this
+    class to main window, make screens and then remove them).
+    Don't forget to prepare documentation for this class!
