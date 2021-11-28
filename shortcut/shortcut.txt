@@ -1,0 +1,13 @@
+Creating an auto uptating file by filxxip
+
+1) In your terminal paste a command: pip install pyinstaller
+2) Create a folder with any name
+3) In this folder create a file with a code :
+
+import os
+os.system('python3 <path_your_program>')
+
+4)In terminal paste a command :
+pyinstaller --onefile --icon=<something.ico> <file_with_any_name>
+
+5) Then in dist folder you will have your app
