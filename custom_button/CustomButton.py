@@ -1,36 +1,37 @@
 import tkinter as tk
-from tkinter import *
+from tkinter import Button, Frame
 from external.constants import FONT_FAMILY, FONT_SIZE
+
 
 class CustomButton:
     """Class, whick represents custom button."""
 
     color = "#21A2F1"
-    activebackground = "white"
-    width = 70
-    height = 40
-    index = 0
-    """Static arguments which represent button
+    """Static property which hold the color of button"""
 
-    Params:
-        color (str): background colour of button
-        activebackground (str): colour of activebackground
-        width (int): the value of width of button
-        height (int): the value of height of button
-        index (int): the index of the button"""
+    activebackground = "white"
+    """Static property which hold the activebackgroud color of button"""
+
+    width = 70
+    """Static property which hold the width of button"""
+
+    height = 40
+    """Static property which hold the height of button"""
+
+    index = 0
+    """Static property which hold the index of button"""
 
     def __init__(self, master, your_text, button_command):
         """Construct new CustomButton object
 
         Params:
-            master (tkinter): base for your app
+            master (tkinter): parent of your app
             your_text (str): text on the button
-            button_list (tuple): board which comprises all buttons on the window
             button_command (function): command of button"""
         CustomButton.index += 1
         self.__index = CustomButton.index
         self.__frame = Frame(
-            master, highlightthickness="3", highlightbackground="#FF453E", bd=0
+            master, highlightthickness=3, highlightbackground="#FF453E", bd=0
         )
         self.__frame.place(
             x=self.calculate_x_coordinate(),
@@ -39,9 +40,9 @@ class CustomButton:
             height=CustomButton.height,
         )
         self.__button = Button(
-            self.__frame, width=CustomButton.width, height=CustomButton.height
-        )
-        self.__button.config(
+            self.__frame,
+            width=CustomButton.width,
+            height=CustomButton.height,
             text=your_text,
             background=CustomButton.color,
             font=(FONT_FAMILY, FONT_SIZE),
@@ -55,14 +56,14 @@ class CustomButton:
         """Provide frame of button
 
         Returns:
-            Frame of button"""
+            instance of frame of button"""
         return self.__frame
 
     def get_button(self):
         """Provide button
 
         Returns:
-            Button"""
+            instance of button"""
         return self.__button
 
     def calculate_x_coordinate(self, geometry=700):
@@ -79,19 +80,6 @@ class CustomButton:
         self.__xaxis -= 0.5 * (geometry / (CustomButton.index + 2))
         self.__xaxis -= 0.5 * width
         return self.__xaxis
-
-    def set_all_buttons(button_list):
-        """Set all buttons
-
-        Args:
-            button_list (tuple): List of buttons"""
-        for x in button_list:
-            x.__frame.place(
-                x=x.coo_creatorx(),
-                y=500,
-                width=CustomButton.width,
-                height=CustomButton.height,
-            )
 
     def set_text(self, new_text):
         """Set new text on the button
