@@ -1,0 +1,18 @@
+Date of creation: 
+    01.12.2021
+
+Created by: 
+    Filip Półtoraczyk
+
+Assigned: 
+    Filip Półtoraczyk
+
+Type:
+    Normal task
+
+Title: 
+    Create program which presented previous effects of project.
+
+Description:
+    Create a simply code which comprises Label and Button class and shows their possibilities.
+    Include there some methods which change properties of objects.
