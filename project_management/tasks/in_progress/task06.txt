@@ -1,0 +1,21 @@
+Date of creation: 
+    02.12.2021
+
+Created by: 
+    Jakub Półtoraczyk
+
+Assigned: 
+    Jakub Półtoraczyk
+
+Type:
+    Normal task
+
+Title: 
+    Create custom class for label-entry object
+
+Description:
+    Create custom class, which will manage GUI label-entry objects.
+    Label should not be changeable, but in entry user should have a possibility to enter some text.
+    Add appropriate methods or variables to change objects properties and also remember to adapt object to
+    use it in different situations like e.g. in a login window entry should be always hidden (by e.g. "****")!
+    

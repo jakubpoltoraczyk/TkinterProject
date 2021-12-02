@@ -5,7 +5,7 @@ Created by:
     Jakub Półtoraczyk
 
 Assigned: 
-    
+    Filip Półtoraczyk
 
 Type:
     Normal task

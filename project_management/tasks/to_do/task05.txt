@@ -1,0 +1,21 @@
+Date of creation: 
+    02.12.2021
+
+Created by: 
+    Jakub Półtoraczyk
+
+Assigned: 
+    Filip Półtoraczyk
+
+Type:
+    Normal task
+
+Title: 
+    Create custom class for message box in login window
+
+Description:
+    Create custom class, which will manage GUI message box in login window.
+    Remember, that it should not be changeable and it has to display information
+    about incorrect login attempts. It should also has some "OK" button, which will close it.
+    Of course provide a possibility to easily change this class properties!
+    
