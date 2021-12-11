@@ -1,0 +1,18 @@
+Date of creation: 
+    11.12.2021
+
+Created by: 
+    Jakub Półtoraczyk
+
+Assigned: 
+    Jakub Półtoraczyk
+
+Type:
+    Normal task
+
+Title: 
+    Create a script to use shortcut description from task01
+
+Description:
+    As in title.
+    
