@@ -41,6 +41,13 @@ class TitleLabel(object):
             y_coordinate (int): New y coordinate as a pixel value"""
         self.__label.place(x=x_coordinate, y=y_coordinate)
 
+    def get_label(self):
+        """Provide label
+
+        Returns:
+            instance of label"""
+        return self.__label
+        
     def set_text(self, new_text):
         """Set new text on the label
 
