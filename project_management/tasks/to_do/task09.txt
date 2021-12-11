@@ -1,0 +1,19 @@
+Date of creation: 
+    11.12.2021
+
+Created by: 
+    Jakub Półtoraczyk
+
+Assigned: 
+    Filip Półtoraczyk
+
+Type:
+    Normal task
+
+Title: 
+    Create horizontal scrollbar class
+
+Description:
+    Create horizontal scrollbar class, which will be used to mark skills (so it's need
+    to have a label as well as a horizontal scrollbar)
+    
