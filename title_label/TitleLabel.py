@@ -45,7 +45,7 @@ class TitleLabel(object):
         """Provide label
 
         Returns:
-            instance of label"""
+            instance of Tkinter label used in this class"""
         return self.__label
         
     def set_text(self, new_text):
