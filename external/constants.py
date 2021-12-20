@@ -5,3 +5,9 @@ FONT_FAMILY = "Helvetica"
 
 FONT_SIZE = 12
 """Font size used in each GUI text"""
+
+DEFAULT_BACKGROUND_COLOR = "#A49D8A"
+"""Default color of any object background"""
+
+DEFAULT_FOREGROUND_COLOR = "#000000"
+"""Default color of any object foreground"""

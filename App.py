@@ -1,4 +1,5 @@
 import tkinter as tk
+from external.constants import DEFAULT_BACKGROUND_COLOR
 
 class App:
     """Class which is the window of application"""
@@ -11,7 +12,7 @@ class App:
         self.__master.title("Project")
         self.__master.geometry("700x700")
         self.__master.config(
-            background="#A49D8A", highlightthickness="10", highlightcolor="grey"
+            background=DEFAULT_BACKGROUND_COLOR, highlightthickness="10", highlightcolor="grey"
         )
 
     def run(self):
