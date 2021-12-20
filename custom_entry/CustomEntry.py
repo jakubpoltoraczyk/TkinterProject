@@ -16,7 +16,7 @@ class CustomEntry:
         NORMAL = 0
         PASSWORD = 1
 
-    def __init__(self, parent_window, x_coordinate, y_coordinate):
+    def __init__(self, parent_window, x_coordinate = 0, y_coordinate = 0):
         """Construct new CustomEntry object
         
         Params:
