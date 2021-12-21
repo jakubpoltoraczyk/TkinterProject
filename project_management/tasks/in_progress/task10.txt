@@ -1,0 +1,17 @@
+Date of creation: 
+    11.12.2021
+
+Created by: 
+    Filip Półtoraczyk
+
+Assigned: 
+    Filip Półtoraczyk
+
+Type:
+    Fixbag task
+
+Title: 
+    Repair custom button class.
+
+Description:
+    Repair the module which represents placing button on tkinter window.
