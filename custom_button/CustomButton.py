@@ -21,21 +21,23 @@ class CustomButton:
     index = 0
     """Static property which hold the index of button"""
 
-    def __init__(self, master, your_text, button_command):
+    def __init__(self, master, your_text, button_command, window_height, window_width):
         """Construct new CustomButton object
 
         Params:
             master (tkinter): parent of your app
             your_text (str): text on the button
-            button_command (function): command of button"""
+            button_command (function): command of button
+            window_height (int): the height of window
+            window_width (int): the width of window"""
         CustomButton.index += 1
         self.__index = CustomButton.index
         self.__frame = Frame(
             master, highlightthickness=3, highlightbackground="#FF453E", bd=0
         )
         self.__frame.place(
-            x=self.calculate_x_coordinate(),
-            y=500,
+            x=self.calculate_x_coordinate(window_width),
+            y=window_height * (5 / 7),
             width=CustomButton.width,
             height=CustomButton.height,
         )
@@ -66,7 +68,7 @@ class CustomButton:
             instance of button"""
         return self.__button
 
-    def calculate_x_coordinate(self, geometry=700):
+    def calculate_x_coordinate(self, window_width):
         """Calculate the x coordinate of button
 
         Args:
@@ -75,9 +77,9 @@ class CustomButton:
         Returns:
             Position of the button"""
         width = CustomButton.width
-        self.__xaxis = geometry / (CustomButton.index + 2)
-        self.__xaxis += geometry / (CustomButton.index + 2) * self.__index
-        self.__xaxis -= 0.5 * (geometry / (CustomButton.index + 2))
+        self.__xaxis = window_width / (CustomButton.index + 2)
+        self.__xaxis += window_width / (CustomButton.index + 2) * self.__index
+        self.__xaxis -= 0.5 * (window_width / (CustomButton.index + 2))
         self.__xaxis -= 0.5 * width
         return self.__xaxis
 
