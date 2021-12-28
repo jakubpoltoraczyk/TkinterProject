@@ -11,3 +11,6 @@ DEFAULT_BACKGROUND_COLOR = "#A49D8A"
 
 DEFAULT_FOREGROUND_COLOR = "#000000"
 """Default color of any object foreground"""
+
+DEFAULT_WINDOW_GEOMETRY_SIZE = 400
+"""Default window geometry size"""
